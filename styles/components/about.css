@@ -82,9 +82,31 @@
 }
 
 /* sm */
-/* @media (min-width: 640px) {
+@media (min-width: 640px) {
+    .about__img-wrapper {
+        margin: 0 auto;
+    }
 
-} */
+    .about__img {
+        width: 28.6875rem;
+    }
+
+    .about__title {
+        font-size: var(--size-4xl);
+    }
+    
+    .about__description {
+        font-size: var(--size-lg);
+    }
+    
+    .about__subtitle {
+        font-size: var(--size-lg);
+    }
+
+    .about__list {
+        font-size: var(--size-lg);
+    }
+}
 
 /* md */
 /* @media (min-width: 768px) {
