@@ -143,6 +143,10 @@
     .about__list {
         font-size: var(--size-xl);
     }
+
+    .about__img {
+        width: 30.75rem;
+    }
 }
 
 /* 2xl */
