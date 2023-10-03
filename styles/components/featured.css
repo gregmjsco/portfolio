@@ -65,6 +65,15 @@
         font-size: var(--size-base);
         margin: 1.5rem 0;
     }
+
+    .featured__label {
+        font-size: var(--size-lg);
+
+    }
+    
+    .featured__info {
+        font-size: var(--size-base);
+    }
 }
 
 /* sm */
@@ -95,6 +104,15 @@
     .featured__description {
         font-size: var(--size-lg);
     }
+
+    .featured__label {
+        font-size: var(--size-xl);
+
+    }
+    
+    .featured__info {
+        font-size: var(--size-lg);
+    }
 }
 
 /* xl */
@@ -115,6 +133,15 @@
     .featured__description {
         font-size: var(--size-xl);
         margin: 2rem 0;
+    }
+
+    .featured__label {
+        font-size: var(--size-2xl);
+
+    }
+    
+    .featured__info {
+        font-size: var(--size-xl);
     }
 }
 
