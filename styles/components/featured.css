@@ -29,6 +29,22 @@
     height: var(--size-2xl);
 }
 
+.featured__label {
+    font-size: var(--size-base);
+    text-transform: capitalize;
+    margin-bottom: 0.25em;
+}
+
+.featured__teck-stack {
+    padding: none;
+    list-style: none;
+}
+
+.featured__info {
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+    text-transform: capitalize;
+}
 /* xs */
 @media (min-width: 475px) {
 
