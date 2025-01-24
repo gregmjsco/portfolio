@@ -13,6 +13,11 @@
   display: none;
 }
 
+.header__line {
+  border: 1px solid var(--clr-slate600);
+  padding-top: 1.5rem;
+}
+
 .header__bars {
   color: var(--clr-light);
   width: var(--size-2xl);
