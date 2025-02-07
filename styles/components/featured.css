@@ -1,3 +1,18 @@
+img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.ballagain_link {
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.2;
+}
+
 .feature__subtitle {
   font-size: var(--size-sm);
   color: var(--clr-indigo);
