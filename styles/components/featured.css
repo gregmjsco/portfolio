@@ -99,6 +99,12 @@ img {
 .featured__img-wrapper:hover::after {
   background-color: rgba(79, 70, 229, 0.1);
 }
+
+.featured__img-wrapper a {
+  position: relative;
+  z-index: 2;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .feature__subtitle {
